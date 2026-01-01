@@ -22,14 +22,14 @@ function Calculator() {
   }, [operand]);
 
   return (
-    <>
+    <div>
       <ul className={styles.calculatorList}>
         <Calculation result={addOne} title="Add 1" />
         <Calculation result={cubed} title="Cubed" />
         <Calculation result={multiplyByThree} title="Multiply by 3" />
         <Calculation result={squareRoot} title="Square Root" />
       </ul>
-    </>
+    </div>
   );
 }
 
